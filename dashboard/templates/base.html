@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% block title %}Home Version{% endblock %}</title>
     {% load staticfiles %}
+    <link rel="shortcut icon" href="{% static 'f.png' %}" />
     <link href="{% static 'css/style.min.css' %}" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     
@@ -19,7 +20,7 @@
                 <div class="container">
                     <div class="header-left">
                         <div class="logo">
-                            <a href='{% url "dashboard:index" %}' title=""><img src="{% static 'img/logo-green.png' %}" alt="" /></a>
+                            <a href='{% url "dashboard:index" %}' title=""><img src="{% static 'dashup.png' %}" alt="" /></a>
                         </div>
                     </div>
                     <div class="header-menu">

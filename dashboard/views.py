@@ -31,3 +31,6 @@ def shop(request):
 
 def contact(request):
 	return render(request,'contact-us.html')
+
+def handler404(request):
+	return render(request,'404.html')
